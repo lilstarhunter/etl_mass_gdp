@@ -3,7 +3,7 @@ CREATE TABLE gdp(
 	year VARCHAR(4) NOT NULL,
 	country_code VARCHAR(3) NOT NULL,
 	country_name VARCHAR NOT NULL,
-	gdp INT
+	gdp numeric
 );
 
 CREATE TABLE mass_protest(
