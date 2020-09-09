@@ -1,6 +1,6 @@
 # ETL Project Final Report
-**Completed By:** Lauren Stein, Danny Petrella, and Jessie Lynch\
 ### Conduct an ETL project by identifying two separate data sources to be compiled using pandas and processed for querying in PostgreSQL using SQLAlchemy and pgAdmin
+**Completed By:** Lauren Stein, Danny Petrella, and Jessie Lynch\
 ---
 
 ## Part 1: Identify Data Sources
