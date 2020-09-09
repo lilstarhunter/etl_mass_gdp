@@ -15,7 +15,7 @@ We chose to use the postgresql database as opposed to MongoDB because the abilit
 4. Performed a groupby aggregate function to calculate the total number of protests per year per country
 5. Connected jupyter notebook to pgAdmin using SQLAlchemy
 
-## Part 3: Prepare Postgres database for import
+## Part 3: Prepare Postgres Database for Import and Query
 1. Created a schema to hold the datasets (gdp and mass_protest)
 2. Imported dataset via SQLAlchemy
 3. Conducted final query to get a single dataset containing both the total number of protests per year per country with the %GDP per year per country
