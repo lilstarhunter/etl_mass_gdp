@@ -7,7 +7,7 @@
 1. Identifyied a rich dataset containing information on mass mobilizations against governments worldwide from 1990 - 2019 [Mass Mobilization Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HTTWYL)
 2. Identified a dataset on countries gross domestic product by country obtained through the World Bank [World Bank Open Data](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD)
 
-## Part 2: Explored, Transform and Load data using Python
+## Part 2: Explore, Transform and Load data using Python
 We chose to use the postgresql database as opposed to MongoDB because the ability to utilize a relational database proved more powerful with this particular dataset. 
 1. Leveraged the pandas and SQLAlchemy libraries
 2. Imported csv files and converted to DataFrame
