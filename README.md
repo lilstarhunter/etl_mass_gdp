@@ -10,6 +10,8 @@
 
 ## Part 2: Transform the Data
 We chose to use the postgresql database as opposed to MongoDB because the ability to utilize a relational database proved more powerful with this particular dataset. 
+_Note: For country/years with NaN, we decided to leave in NaN rather than convert to 0. NaN represents a null value for which data was not collected that year by the world bank. A value of 0 would represent a 0% GDP and could complicate downstream analysis_
+
 1. Leveraged the pandas and SQLAlchemy libraries
 2. Imported csv files and converted to DataFrame
 3. Cleaned the datasets for easy upload into Postgres
